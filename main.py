@@ -1,10 +1,7 @@
 
 import asyncio
 from aiogram import Bot,Dispatcher, executor
-
-
-admin_id=1274214471
-Bot_Token="5041117492:AAEpyQl4e9IX2_5dPVSbqLU1iNN4PdYUCJ8"
+Bot_Token="5074249875:AAE-z-JmX0HbO0QlH-M4k4DRPODXQr_aja0"
 loop=asyncio.get_event_loop()
 bot=Bot(Bot_Token,parse_mode="HTML")
 dp=Dispatcher(bot,loop=loop)
